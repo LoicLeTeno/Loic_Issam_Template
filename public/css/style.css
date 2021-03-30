@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: 0
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: contain;
+    background-repeat: round;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* HEADER */
+header>div>div {
+    color: white;
+    
+    text-align: center;
+
+    padding: 30px 0% 30px 0%;
+}
+
+header p {
+    font-size: 50%;
+
+    margin-top: -5px;
+}
+
+section {
+    box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.514);
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#imageFille img{
+    width: 100%;
+}
+
+.block1 h1{
+    background-color: white;
+    text-align: center;
+
+    font-size: 100%;
+
+    padding: 5%;
+}
+
+.block1 p {
+    background-color: rgb(243, 241, 241);
+    color: rgba(0, 0, 0, 0.26);
+
+    font-weight: normal;
+    font-size: 70%;
+    line-height: 140%;
+
+    padding: 10%;
+}
+
+
+/* FIN HEADER */
+.block2 {
+    background-color: rgba(30,31,35,255);
+
+    padding: 6%;
+}
+
+.block2H1 {
+    background-color: black;
+
+    text-align: center;
+
+    padding: 3%;
+}
+
+.block2H1 h1 {
+    color: white;
+
+    font-size: 100%;
+}
+
+.block2H1 p {
+    color: rgba(255, 255, 255, 0.205);
+
+    font-size: 50%;
+    letter-spacing: 0.2em;
+
+    margin-top: 3%;
+}
+
+.block2Image img {
+    width: 50%;
+
+    margin: -0.1em;
+}
+
+
+/* BLOCK 3 LIGNE 1 */
+.block3Ligne1 {
+    display: flex;
+
+    width: 100%;
+}
+
+.block3Ligne1>div {
+    width: 100%;
+}
+
+.block3Ligne1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.block3Ligne1H3 {
+    background-color: white;
+
+    width: 100%;
+}
+
+.block3Ligne1H3 h3 {
+    font-size: 90%;
+
+    margin: 25% 15% 5%;
+}
+
+.block3Ligne1H3 p {
+    color: rgba(0, 0, 0, 0.247);
+
+    font-size: 60%;
+    line-height: 140%;
+
+    margin: 0% 15% 25%;
+}
+
+
+/* BLOCK 3 LIGNE 2 */
+.block3Ligne2 {
+    display: flex;
+
+    width: 100%;
+}
+
+.block3Ligne2H3 {
+    background-color: rgba(30,31,35,255);
+
+    width: 50%;
+}
+
+.block3Ligne2H3 h3 {
+    color: white;
+
+    font-size: 90%;
+    text-align: right;
+
+    margin: 25% 15% 5%;
+}
+
+.block3Ligne2H3 p {
+    color: rgba(255, 255, 255, 0.144);
+
+    font-size: 60%;
+    text-align: right;
+    line-height: 140%;
+
+    margin: 0% 15% 25%;
+}
+
+.block3Ligne2>div {
+    width: 100%;
+}
+
+.block3Ligne2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* BLOCK 3 LIGNE 3 */
+.block3Ligne3 {
+    display: flex;
+
+    width: 100%;
+}
+
+.block3Ligne3>div {
+    width: 100%;
+}
+
+.block3Ligne3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.block3Ligne3H3 {
+    background-color: white;
+
+    width: 100%;
+}
+
+.block3Ligne3H3 h3 {
+    font-size: 90%;
+
+    margin: 25% 15% 5%;
+}
+
+.block3Ligne3H3 p {
+    color: rgba(0, 0, 0, 0.247);
+
+    font-size: 60%;
+    line-height: 140%;
+
+    margin: 0% 15% 25%;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    margin-top: 4%;
+}
+
+footer a {
+    color: white;
+
+    margin: 0.2%;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.377);
+
+    font-size: 70%;
+
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
